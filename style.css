@@ -1,0 +1,501 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Aleo';
+}
+button{
+    font-family: 'Red Hat Text'; 
+    cursor: pointer;
+}
+/*header*/
+.bacgr{
+    background-image: url(img/garrett-parker.png) ;
+    background-size: cover;
+    height: 1000px;
+}
+.container{
+    background-color: rgba(242, 120, 92, 0.7) ;
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+.wrapper{
+    width: 1200px;
+    margin: 0px auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:25px ;
+    padding-bottom: 34px;
+}
+nav{
+    display: flex;
+    list-style-type: none;
+}
+/*  poup menu  */
+
+.modal-window{
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.hiden{
+    overflow-y: hidden;
+}
+.visible{
+    display: none;
+}
+
+.modal{
+    max-height: 660px;
+    width:650px ;
+    height: 660px;
+    background: 
+                linear-gradient(rgba(255, 255, 255, 1),rgba(13, 96, 111, 1));
+    border-radius: 16px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(177.09deg, #FFFFFF 6.15%, #0D606F 202.69%);
+}
+
+.modal-title{
+    font-size: 32px;
+    line-height: 38px;
+    color: #0D606F;
+    margin-bottom: 30px;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.facebook, .google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 560px;
+    height: 56px;
+    background: #1877F2;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.btn-img{
+    margin-right: 16px;
+}
+
+.modal>button, .modal>.btn-wrapper>button{
+    font-size: 20px;
+    color: #fff;
+    font-style: normal;
+}
+.input-title{
+    font-size: 16px;
+    line-height: 19px;
+    color: #0D606F;
+}
+
+input{
+    width: 560px;
+    height: 54px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.sign{
+    width: 560px;
+    height: 54px;
+    background-color: #0D606F;
+    border: none;
+    border-radius: 10px;
+}
+
+.sign-after{
+    color: #0D606F;
+    margin-top: 10px;
+    margin-bottom: 26px;
+}
+
+.sign{
+    color: #fff;
+}
+
+.sign-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal>hr{
+    width: 560px;
+}
+
+.create-account-title{
+    font-size: 15px;
+    color: rgba(13, 96, 111, 0.5);
+}
+
+.register{
+    color: #0D606F;
+}
+
+.nav_element{
+    margin-right: 42px;
+}
+.nav_link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+}
+.login{
+    width: 103px;
+    height: 41px;
+    color: #fff;
+    background-color:#0D606F ;
+    border: 1px solid;
+    border-radius: 10px;
+    border: none;
+}
+.title{
+    margin-top: 32px;
+}
+h1{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    width: 892px;
+    color: #fff;
+    margin-bottom: 32px;
+}
+.after_title{
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 46px;
+}
+
+.whatWould{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.7);
+    align-items: center;
+    justify-content: space-between;
+    width: 892px;
+    height: 95px;
+    border-radius: 16px;
+}
+.what_title{
+    color: rgba(242, 120, 92, 1);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 47px;
+}
+.start{
+    width: 228px;
+    height: 59px;
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    border: none;
+    margin-right: 18px;
+    color: #fff;
+    font-size: 24px;
+}
+
+main{
+    margin-top: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-title{
+    margin-bottom: 40px;
+    width: 611px;
+    height: 53px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+}
+
+.article-item{
+    margin-right: 216px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-item:last-child{
+    margin-right: 0px;
+}
+
+.img-container{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(242, 120, 92, 1);
+    border-radius:16px ;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.main-img{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+
+.article-element_title{
+    text-align: center;
+    width: 247px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+}
+
+.article-element_title:last-child{
+    width: 317px;
+}
+
+.carousel-article{
+    width: 501px;
+    height: 53px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+    margin-top: 97px;
+    margin-bottom: 46px;  
+}
+
+.carousel{
+    display: flex;
+    position: relative;
+    left: -520px;
+}
+
+.carousel-item{
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 3s;
+}
+
+.carousel-item:last-child{
+    margin-right: 0px;
+}
+.carousel-wrapper{
+    width: 1444px;
+    overflow: hidden;
+}
+
+.dots-wreapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.dots{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:  rgba(242, 120, 92, 0.5);;
+    margin-right: 10px;
+}
+.dots:last-child{
+    margin: 0px;
+}
+
+.one{
+    order: 1;
+}
+
+.two{
+    order: 2;
+}
+
+.three{
+    order: 3;
+}
+
+
+
+@keyframes anim{
+    0%{
+        left: -520px;
+    }
+    100%{
+        left : 300px
+    }
+}
+
+/*  end  */
+.end{
+    background-image: url(img/background-end.png);
+    background-size:contain;
+    background-size: cover;
+    margin-top: 40px;
+}
+.bacgrEnd{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 40px;
+}
+.end-container{
+    padding-top: 40px;
+    display: flex;
+}
+.end-img{
+    left: 0px;
+    margin-right: 40px;
+}
+.end-title{
+    width: 760px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #0D606F;
+}
+.endP{
+    width: 760px;
+    height: 184px;
+    font-family: 'Aleo';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+}
+.end-btn{
+    display: flex;
+    color: #fff;
+    background-color: #0D606F;
+    width: 228px;
+    height: 59px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+.end-btn>h2{
+    margin-left: 13px;
+}
+footer{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding :20px;
+}
+.footer-title{
+    display: inline;
+    width: 260px;
+    height: 21px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    align-self: center;
+}
+.footer-img{
+    display: flex;
+}
+.footer-img-element{
+    margin-left: 25px;
+}
+
+
+
+@media (max-width: 1440px){
+    .wrapper{
+        width: 85%;
+    }
+}
+@media (max-width: 1025px){
+    .wrapper{
+        width: 90%;
+    }
+    .bacgr{
+        background-size: cover;
+    }
+    .end-container{
+        flex-direction: column;
+    }
+    main{
+        width: 950px;
+    }
+    .carousel-wrapper{
+        width: 950px;
+        margin: 0px auto;
+    }
+}
+@media(max-width:992px){
+    .whatWould{
+        width: 85%;
+    }
+    .wrapper{
+        width: none;
+    }
+    h1{
+        font-size: 60px;
+    }
+}
+@media (max-width: 769px){
+    .bacgr{
+        width: 100%;
+    }
+    h1, .after_title, nav, .login{
+        display: none;
+    }
+    .whatWould{
+        width: 700px;
+        margin-top: 400px;
+    }
+    .wrapper{
+        width: 700px;
+    }
+}
+@media (max-width: 769px){
+    .wrapper{
+        width: 90%;
+    }
+    .whatWould{
+        width: 390px;
+        height: 50px;
+    }
+    .what_title{
+        font-size: 14px;
+    }
+    .start{
+        width: 120px;
+        height: 35px;
+        font-size: 11px;
+    }
+}
